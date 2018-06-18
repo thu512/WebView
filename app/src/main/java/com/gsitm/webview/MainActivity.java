@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
         //홈으로 버튼 클릭
         home.setOnClickListener((view) -> {
-            mWebView.loadUrl("http://10.0.2.2:8087/main.do");
+            mWebView.loadUrl("http://192.168.9.233:8087/main.do");
         });
 
         //새로고침 버튼 클릭
