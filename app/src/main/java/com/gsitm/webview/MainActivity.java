@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         mWebSetting.setSupportZoom(true);
         mWebSetting.setPluginState(WebSettings.PluginState.ON_DEMAND);
         mWebSetting.setDefaultZoom(WebSettings.ZoomDensity.FAR);
-        mWebView.loadUrl("http://10.0.2.2:8087/main.do");
+        mWebView.loadUrl("http://192.168.0.2:8082/main.do");
 
         //뒤로가기 버튼 클릭
         back.setOnClickListener((view) -> {
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
         //홈으로 버튼 클릭
         home.setOnClickListener((view) -> {
-            mWebView.loadUrl("http://192.168.9.233:8087/main.do");
+            mWebView.loadUrl("http://192.168.0.2:8082/main.do");
         });
 
         //새로고침 버튼 클릭
