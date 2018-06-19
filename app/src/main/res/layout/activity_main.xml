@@ -18,12 +18,12 @@
 
     <LinearLayout
         android:id="@+id/naviBar"
-        android:background="#1299b3"
+        android:background="#fff"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="horizontal"
         android:layout_weight="0.7"
-        android:weightSum="9">
+        android:weightSum="10.5">
 
         <Space
             android:layout_width="0dp"
@@ -40,7 +40,7 @@
         <Space
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1.5" />
+            android:layout_weight="1.25" />
 
         <Button
             android:id="@+id/front"
@@ -52,7 +52,7 @@
         <Space
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1.5" />
+            android:layout_weight="1.25" />
 
         <Button
             android:id="@+id/home"
@@ -62,9 +62,9 @@
             android:background="@mipmap/home" />
 
         <Space
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1.5" />
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.25" />
 
         <Button
             android:id="@+id/refresh"
@@ -72,6 +72,18 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@mipmap/reload" />
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.25" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/uibutton"
+            android:layout_weight="1"
+            android:background="@mipmap/microphone"
+            />
         <Space
             android:layout_width="0dp"
             android:layout_height="wrap_content"
